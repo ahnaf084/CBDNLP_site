@@ -12,7 +12,7 @@ span2.textContent=value;
 
 // create a new user
 var createUser = (user) => {
-    axios.post('https://cbdnlp.xyz/predict', JSON.stringify({content: user}),{
+    axios.post('http://cbdnlp.xyz/predict', JSON.stringify({content: user}),{
   headers: {
     'content-type': 'application/json'
   }
