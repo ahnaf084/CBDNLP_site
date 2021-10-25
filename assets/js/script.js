@@ -1,6 +1,5 @@
 const appendToDOM = (users) => {
-    const obj=users
-    console.log(Object.values(obj))
+const obj=users
 const catg=Object.keys(obj)
 const value= Object.values(obj)
 const span1 = document.querySelector('#siam');
