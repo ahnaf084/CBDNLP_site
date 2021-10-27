@@ -42,7 +42,7 @@
         },
 
         contactForm: function() {
-            $('.axil-contact-form').on('submit', function(e) {
+            $('.axil-contact-form').on('click', function(e) {
                 e.preventDefault();
                 var _self = $(this);
                 var _selector = _self.closest('input,textarea');
@@ -51,7 +51,7 @@
                 _self.closest('div').find('button[type="submit"]').attr('disabled', 'disabled');
                 var data = $(this).serialize();
                 $.ajax({
-                    url: 'mail.php',
+                    url: 'https://script.google.com/macros/s/AKfycbw7GyRmW6z2zBCooU-2hiKEB5qYX67S3KcbyqNBPNuELz48IqItw6IpBCMi1c1dPx00Ug/exec',
                     type: 'post',
                     dataType: 'json',
                     data: data,
