@@ -51,19 +51,19 @@
                 _self.closest('div').find('button[type="submit"]').attr('disabled', 'disabled');
                 var data = $(this).serialize();
                 $.ajax({
-                    url: 'https://script.google.com/macros/s/AKfycbw7GyRmW6z2zBCooU-2hiKEB5qYX67S3KcbyqNBPNuELz48IqItw6IpBCMi1c1dPx00Ug/exec',
+                    url: 'https://sheetdb.io/api/v1/ifozulx3cpz0w',
                     type: 'post',
                     dataType: 'json',
                     data: data,
                     success: function(data) {
                         _self.closest('div').find('button[type="submit"]').removeAttr('disabled');
                         if (data.code === false) {
-                            _self.closest('div').find('[Comment="' + data.field + '"]');
+                            _self.closest('div').find('[name="' + data.field + '"]');
                             _self.find('.btn-primary').after('<div class="error-msg"><p>*' + data.err + '</p></div>');
                         } else {
                             $('.error-msg').hide();
                             $('.form-group').removeClass('focused');
-                            _self.find('.btn-primary').after('<div class="success-msg"><p>' + data.success + '</p></div>');
+                            _self.find('.btn-primary').after('<div class="success-msg"><p>' + "Submitted" + '</p></div>');
                             _self.closest('div').find('input,textarea').val('');
 
                             setTimeout(function() {
