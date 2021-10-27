@@ -42,7 +42,7 @@
         },
 
         contactForm: function() {
-            $('.axil-contact-form').on('click', function(e) {
+            $('.axil-contact-form').on('submit', function(e) {
                 e.preventDefault();
                 var _self = $(this);
                 var _selector = _self.closest('input,textarea');
@@ -58,7 +58,7 @@
                     success: function(data) {
                         _self.closest('div').find('button[type="submit"]').removeAttr('disabled');
                         if (data.code === false) {
-                            _self.closest('div').find('[name="' + data.field + '"]');
+                            _self.closest('div').find('[Comment="' + data.field + '"]');
                             _self.find('.btn-primary').after('<div class="error-msg"><p>*' + data.err + '</p></div>');
                         } else {
                             $('.error-msg').hide();
