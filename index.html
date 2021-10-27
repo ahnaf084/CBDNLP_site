@@ -1,13 +1,11 @@
 <!DOCTYPE html>
 <html class="no-js" lang="en">
 
-
-<!-- Mirrored from axilthemes.com/demo/template/abstrak/ by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 20 Oct 2021 19:49:29 GMT -->
 <head>
     <!-- Meta Data -->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Abstrak | Digital Creative Agency Bootstrap5 Template </title>
+    <title>CBDNLP</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Favicon -->
@@ -22,13 +20,14 @@
 
     <!-- Site Stylesheet -->
     <link rel="stylesheet" href="assets/css/app.css">
+    <style>
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500&display=swap');
+</style>
 
 </head>
 
 <body class="sticky-header">
-    <!--[if lte IE 9]>
-    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
-  	<![endif]-->
+   
     <a href="#main-wrapper" id="backto-top" class="back-to-top">
         <i class="far fa-angle-double-up"></i>
     </a>
@@ -55,32 +54,70 @@
     <div id="main-wrapper" class="main-wrapper">
 
         <!--=====================================-->
-        <!--=        Header Area Start          =-->
+        <!--=        Header Area Start       	=-->
         <!--=====================================-->
-        <header class="header axil-header header-style-1 splash-header-style">
+        <header class="header axil-header header-style-1">
             <div id="axil-sticky-placeholder"></div>
             <div class="axil-mainmenu">
                 <div class="container">
                     <div class="header-navbar">
                         <div class="header-logo">
-                            <a href="index-2.html"><img class="light-version-logo" src="assets/media/logo.svg" alt="logo"></a>
-                            <a href="index-2.html"><img class="dark-version-logo" src="assets/media/logo-3.svg" alt="logo"></a>
-                            <a href="index-2.html"><img class="sticky-logo" src="assets/media/logo-2.svg" alt="logo"></a>
+                            <a href="index-1.html"><img class="light-version-logo" src="assets/media/logo.png" alt="logo"></a>
+                            <a href="index-1.html"><img class="dark-version-logo" src="assets/media/logo-3.png" alt="logo"></a>
+                            <a href="index-1.html"><img class="sticky-logo" src="assets/media/logo-2.png" alt="logo"></a>
                         </div>
                         <div class="header-main-nav">
                             <!-- Start Mainmanu Nav -->
-                            <nav class="mainmenu-nav">
-                                <ul class="mainmenu" id="onepagenav">
-                                    <li><a href="#splash-demo">Demo</a></li>
-                                    <li><a href="#splsh-features">Features</a></li>
-                                    <li><a href="#splash-why-choose">Why Us</a></li>
+                            <nav class="mainmenu-nav" id="mobilemenu-popup">
+                                <div class="d-block d-lg-none">
+                                    <div class="mobile-nav-header">
+                                        <div class="mobile-nav-logo">
+                                            <a href="index-1.html">
+                                                <img class="light-mode" src="assets/media/logo-2.png" alt="Site Logo">
+                                                <img class="dark-mode" src="assets/media/logo-3.png" alt="Site Logo">
+                                            </a>
+                                        </div>
+                                        <button class="mobile-menu-close" data-bs-dismiss="offcanvas"><i class="fas fa-times"></i></button>
+                                    </div>
+                                </div>
+                                <ul class="mainmenu">
+                                    <li><a href="project.html">Project</a></li>
+                                    <li><a href="team.html">Team</a></li>
+                                  
                                 </ul>
                             </nav>
                             <!-- End Mainmanu Nav -->
                         </div>
                         <div class="header-action">
                             <ul class="list-unstyled">
-                                <li class="buy-btn"><a target="_blank" href="https://themeforest.net/checkout/from_item/33996058?license=regular" class="axil-btn btn-fill-primary">Buy Now</a></li>
+                                <li class="sidemenu-btn d-lg-block d-none">
+                                    <button class="btn-wrap" data-bs-toggle="offcanvas" data-bs-target="#offcanvasMenuRight">
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                    </button>
+                                </li>
+                                <li class="mobile-menu-btn sidemenu-btn d-lg-none d-block">
+                                    <button class="btn-wrap" data-bs-toggle="offcanvas" data-bs-target="#mobilemenu-popup">
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                    </button>
+                                </li>
+                                <li class="my_switcher d-block d-lg-none">
+                                    <ul>
+                                        <li title="Light Mode">
+                                            <a href="javascript:void(0)" class="setColor light" data-theme="light">
+                                                <i class="fal fa-lightbulb-on"></i>
+                                            </a>
+                                        </li>
+                                        <li title="Dark Mode">
+                                            <a href="javascript:void(0)" class="setColor dark" data-theme="dark">
+                                                <i class="fas fa-moon"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
                             </ul>
                         </div>
                     </div>
@@ -88,376 +125,387 @@
             </div>
         </header>
         <!--=====================================-->
-        <!--=        Banner Area Start          =-->
+
+
+        <!--=        Banner Area Start         =-->
         <!--=====================================-->
-        <section class="section splash-main-banner">
+        <section class="banner banner-style-1">
             <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-lg-10">
-                        <div class="banner-content">
-                            <h1 class="title" data-sal="slide-up" data-sal-duration="800">Creative agency, corporate and portfolio HTML template</h1>
-                            <div class="site-element-count">
-                                <div class="count-box" data-sal="slide-up" data-sal-duration="800" data-sal-delay="200">
-                                    <span class="count-title">Demo Website</span>
-                                    <h2 class="count-number">
-                                        <span class="number count">05</span>
-                                        <span class="symbol">+</span>
-                                    </h2>
-                                </div>
-                                <div class="count-box" data-sal="slide-up" data-sal-duration="800" data-sal-delay="300">
-                                    <span class="count-title">Inner Page</span>
-                                    <h2 class="count-number">
-                                        <span class="number count">30</span>
-                                        <span class="symbol">+</span>
-                                    </h2>
-                                </div>
-                                <div class="count-box" data-sal="slide-up" data-sal-duration="800" data-sal-delay="400">
-                                    <span class="count-title">Elements</span>
-                                    <h2 class="count-number">
-                                        <span class="number count">28</span>
-                                        <span class="symbol">+</span>
-                                    </h2>
-                                </div>
+                <div class="row align-items-center">
+                    <div class="col-lg-6">
+                        <div class="banner-content" data-sal="slide-up" data-sal-duration="1000" data-sal-delay="100">
+                            <h1 class="title">Cyberbullying Detection</h1>
+                            <span class="subtitle">in Bangla text using Natural Language Processing</span>
+                            <a href="project.html" style="font-size:28px;" class="axil-btn btn-fill-primary btn-large">Check our project</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="banner-thumbnail">
+                            <div class="large-thumb" data-sal="zoom-in" data-sal-duration="500" data-sal-delay="300">
+                                <img src="assets/media/banner/laptopModified.png" alt="Laptop">
                             </div>
+                            <ul class="list-unstyled shape-group">
+                                <li class="shape shape-1" data-sal="slide-right" data-sal-duration="500" data-sal-delay="400">
+                                    <img src="assets/media/banner/marker.png" alt="Marker">
+                                </li>
+                                <li class="shape shape-2" data-sal="slide-right" data-sal-duration="500" data-sal-delay="500">
+                                    <img src="assets/media/banner/chat-icon.png" alt="Chat">
+                                </li>
+                                <li class="shape shape-3" data-sal="slide-left" data-sal-duration="500" data-sal-delay="600">
+                                    <img src="assets/media/banner/sticker.png" alt="sticker">
+                                </li>
+                            </ul>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="demo-slider">
-                <div class="slick-slider" data-slick='{"infinite": true, "autoplay": true, "variableWidth": true, "centerMode": true, "arrows": false, "slidesToShow": 1, "autoplaySpeed": 1500,
-        "responsive": [
-            {
-                "breakpoint": 991,
-                "settings": {
-                    "slidesToShow": 1,
-                    "variableWidth": false
-                }
-            }
-        ]
-        }'>
-                    <div class="slick-slide">
-                        <a href="index-1.html">
-                            <img src="assets/media/others/demo-slide-1.png" alt="Demo">
-                        </a>
-                    </div>
-                    <div class="slick-slide">
-                        <a href="index-3.html">
-                            <img src="assets/media/others/demo-slide-2.png" alt="Demo">
-                        </a>
-                    </div>
-                    <div class="slick-slide">
-                        <a href="index-4.html">
-                            <img src="assets/media/others/demo-slide-3.png" alt="Demo">
-                        </a>
-                    </div>
-                    <div class="slick-slide">
-                        <a href="index-5.html">
-                            <img src="assets/media/others/demo-slide-4.png" alt="Demo">
-                        </a>
-                    </div>
-                    <div class="slick-slide">
-                        <a href="index-6.html">
-                            <img src="assets/media/others/demo-slide-5.png" alt="Demo">
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <ul class="list-unstyled shape-group-20">
+            <ul class="list-unstyled shape-group-13">
                 <li class="shape shape-1" data-sal="slide-down" data-sal-duration="500" data-sal-delay="100">
-                    <img src="assets/media/others/bubble-36.png" alt="Bubble">
+                    <img src="assets/media/others/bubble-18.png" alt="Bubble">
+                </li>
+                <li class="shape shape-2" data-sal="slide-left" data-sal-duration="500" data-sal-delay="200">
+                    <img src="assets/media/others/bubble-19.png" alt="Bubble">
+                </li>
+                <li class="shape shape-3" data-sal="slide-left" data-sal-duration="500" data-sal-delay="700">
+                    <img src="assets/media/others/hand-2.png" alt="Hand">
                 </li>
                 <li class="shape shape-4" data-sal="slide-left" data-sal-duration="500" data-sal-delay="700">
                     <img src="assets/media/others/bubble-14.png" alt="Bubble">
                 </li>
                 <li class="shape shape-5" data-sal="slide-left" data-sal-duration="500" data-sal-delay="700">
-                    <img src="assets/media/others/bubble-37.png" alt="Bubble">
-                </li>
-                <li class="shape shape-7" data-sal="slide-left" data-sal-duration="500" data-sal-delay="700">
-                    <img src="assets/media/others/bubble-31.png" alt="Bubble">
+                    <img src="assets/media/others/bubble-14.png" alt="Bubble">
                 </li>
             </ul>
         </section>
         <!--=====================================-->
-        <!--=        Main Demo Area Start       =-->
+        
         <!--=====================================-->
-        <section class="section main-demo-area bg-color-light" id="splash-demo">
+        <!--=       Case Study Area Start       =-->
+        <!--=====================================-->
+        <section class="section section-padding-equal case-study-featured-area bg-color-dark">
             <div class="container">
-                <div class="section-heading heading-left">
-                    <div class="row align-items-center">
-                        <div class="col-xl-6 col-lg-7">
-                            <h2 class="title">Our Template are just ready to use</h2>
-                        </div>
-                        <div class="col-xl-4 col-lg-5 offset-xl-2">
-                            <p>You will love all of the features in our Template. 100% guaranteed satisfaction.</p>
-                        </div>
-                    </div>
-                </div>
                 <div class="row">
-                    <div class="col-md-6" data-sal="slide-up" data-sal-duration="800">
-                        <div class="single-demo">
-                            <a target="_blank" href="index-1.html">
-                                <span class="thumb">
-                                    <img src="assets/media/others/demo-1.png" alt="Digital Agency">
-                                </span>
-                                <h4 class="title">Digital Agency</h4>
-                            </a>
+                    <div class="col-xl-5 col-lg-6" data-sal="slide-right" data-sal-duration="800">
+                        <div class="slick-slider slick-dot-nav featured-content" data-slick='{"infinite": true,"arrows": false, "dots": true, "slidesToShow": 1, "asNavFor": ".featured-thumbnail"}'>
+                            <div class="slick-slide">
+                                <div class="case-study-featured">
+                                    <div class="section-heading heading-left">
+                                        <span class="subtitle" style="color:white;">Featured Case Study</span>
+                                        <h2 class="title" style="color:white;">Logo, identity &amp; web design for Uber</h2>
+                                        <p style="color:white;">Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis.</p>
+                                        <p style="color:white;">Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris.</p>
+                                        <a href="single-case-study.html" class="axil-btn btn-fill-primary btn-large">Read Case Study</a>
+                                    </div>
+                                    <div class="case-study-counterup">
+                                        <div class="single-counterup">
+                                            <h2 class="count-number">
+                                                <span class="number count">15</span>
+                                                <span class="symbol">%</span>
+                                            </h2>
+                                            <span class="counter-title">ROI increase</span>
+                                        </div>
+                                        <div class="single-counterup">
+                                            <h2 class="count-number">
+                                                <span class="number count">60</span>
+                                                <span class="symbol">k</span>
+                                            </h2>
+                                            <span class="counter-title">Monthly website visits</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="slick-slide">
+                                <div class="case-study-featured">
+                                    <div class="section-heading heading-left">
+                                        <span class="subtitle">Featured Case Study</span>
+                                        <h2 class="title">Website and web Development, Design</h2>
+                                        <p>Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis.</p>
+                                        <p>Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris.</p>
+                                        <a href="single-case-study.html" class="axil-btn btn-fill-primary btn-large">Read Case Study</a>
+                                    </div>
+                                    <div class="case-study-counterup">
+                                        <div class="single-counterup">
+                                            <h2 class="count-number">
+                                                <span class="number count">15</span>
+                                                <span class="symbol">%</span>
+                                            </h2>
+                                            <span class="counter-title">ROI increase</span>
+                                        </div>
+                                        <div class="single-counterup">
+                                            <h2 class="count-number">
+                                                <span class="number count">60</span>
+                                                <span class="symbol">k</span>
+                                            </h2>
+                                            <span class="counter-title">Monthly website visits</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="slick-slide">
+                                <div class="case-study-featured">
+                                    <div class="section-heading heading-left">
+                                        <span class="subtitle">Featured Case Study</span>
+                                        <h2 class="title">Branding, website &amp; digital marketing for Apple</h2>
+                                        <p>Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis.</p>
+                                        <p>Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris.</p>
+                                        <a href="single-case-study.html" class="axil-btn btn-fill-primary btn-large">Read Case Study</a>
+                                    </div>
+                                    <div class="case-study-counterup">
+                                        <div class="single-counterup">
+                                            <h2 class="count-number">
+                                                <span class="number count">15</span>
+                                                <span class="symbol">%</span>
+                                            </h2>
+                                            <span class="counter-title">ROI increase</span>
+                                        </div>
+                                        <div class="single-counterup">
+                                            <h2 class="count-number">
+                                                <span class="number count">60</span>
+                                                <span class="symbol">k</span>
+                                            </h2>
+                                            <span class="counter-title">Monthly website visits</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <div class="col-md-6" data-sal="slide-up" data-sal-duration="800" data-sal-delay="200">
-                        <div class="single-demo">
-                            <a target="_blank" href="index-3.html">
-                                <span class="thumb">
-                                    <img src="assets/media/others/demo-2.png" alt="Digital Agency">
-                                </span>
-                                <h4 class="title">Creative Agency</h4>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-md-6" data-sal="slide-up" data-sal-duration="800">
-                        <div class="single-demo">
-                            <a target="_blank" href="index-4.html">
-                                <span class="thumb">
-                                    <img src="assets/media/others/demo-3.png" alt="Digital Agency">
-                                </span>
-                                <h4 class="title">Personal Portfolio</h4>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-md-6" data-sal="slide-up" data-sal-duration="800" data-sal-delay="200">
-                        <div class="single-demo">
-                            <a target="_blank" href="index-5.html">
-                                <span class="thumb">
-                                    <img src="assets/media/others/demo-4.png" alt="Digital Agency">
-                                </span>
-                                <h4 class="title">Home Startup</h4>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-md-6" data-sal="slide-up" data-sal-duration="800">
-                        <div class="single-demo">
-                            <a target="_blank" href="index-6.html">
-                                <span class="thumb">
-                                    <img src="assets/media/others/demo-5.png" alt="Digital Agency">
-                                </span>
-                                <h4 class="title">Corporate Agency</h4>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-md-6" data-sal="slide-up" data-sal-duration="800" data-sal-delay="200">
-                        <div class="single-demo">
-                            <a href="javascript:void(0);">
-                                <span class="thumb">
-                                    <img src="assets/media/others/demo-coming.png" alt="Coming Soon">
-                                </span>
-                            </a>
+                    <div class="col-xl-7 col-lg-6 d-none d-lg-block" data-sal="slide-left" data-sal-duration="800">
+                        <div class="slick-slider slick-dot-nav featured-thumbnail" data-slick='{"infinite": true,"arrows": false, "dots": false, "fade": true, "slidesToShow": 1, "asNavFor": ".featured-content"}'>
+                            <div class="slick-slide">
+                                <div class="case-study-featured-thumb">
+                                    <img src="assets/media/others/case-study-4.png" alt="travel">
+                                </div>
+                            </div>
+                            <div class="slick-slide">
+                                <div class="case-study-featured-thumb">
+                                    <img src="assets/media/others/case-study-5.png" alt="travel">
+                                </div>
+                            </div>
+                            <div class="slick-slide">
+                                <div class="case-study-featured-thumb">
+                                    <img src="assets/media/others/case-study-6.png" alt="travel">
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <ul class="shape-group list-unstyled">
-                <li class="shape-1"><img src="assets/media/others/bubble-35.png" alt="Shape"></li>
-                <li class="shape-2"><img src="assets/media/others/line-4.png" alt="Shape"></li>
+        </section>
+        <!--=====================================-->
+
+
+        <!--=        Testimonial Area Start      =-->
+        <!--=====================================-->
+        <section class="section section-padding">
+            <div class="container">
+                <div class="section-heading heading-left">
+                    <span class="subtitle">Dataset</span>
+                    <h2 class="title">Facebook comments</h2>
+                    <p>Thousands of cyberbullying comments were collected from various Facebook pages</p>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4" data-sal="slide-up" data-sal-duration="1000" data-sal-delay="100">
+                        <div class="testimonial-grid active">
+                            <span class="social-media"><img src="assets/media/comments.png" alt="Yelp"></span>
+                            <p style="font-size: 26px; font-weight: bold; color: 6865FF; font-family: 'Hind Siliguri', sans-serif ">“ আপনি এত মোটা এত মোটা চার হাতে বেড় আসেনা ”</p>
+                            <div class="author-info">
+                                <div class="thumb">
+                                    <img src="assets/media/programmer.png" alt="Google Review">
+                                </div>
+                                <div class="content">
+                                    <span class="name" style="color: red; font-size:18px;">Body shaming</span>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4" data-sal="slide-up" data-sal-duration="1000" data-sal-delay="200">
+                        <div class="testimonial-grid">
+                            <span class="social-media"><img src="assets/media/comments.png" alt="google"></span>
+                            <p style="font-size: 26px; font-weight: bold; color: 6865FF; font-family: 'Hind Siliguri', sans-serif ">“ এই কাঠমুল্লারা দেশটা আবগান পাকিস্তান ইরাক বানাতে চায় ”</p>
+                            <div class="author-info">
+                                <div class="thumb">
+                                    <img src="assets/media/programmer.png" alt="Google Review">
+                                </div>
+                                <div class="content">
+                                    <span class="name" style="color: red; font-size:18px;">Geopolitical</span>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4" data-sal="slide-up" data-sal-duration="1000" data-sal-delay="300">
+                        <div class="testimonial-grid">
+                            <span class="social-media"><img src="assets/media/comments.png" alt="Facebook"></span>
+                            <p style="font-size: 26px; font-weight: bold; color: 6865FF; font-family: 'Hind Siliguri', sans-serif ">“ আপনি যে রুটে যাওয়া আসা করেন ঐ রুটে গেলে আল্লাহ নারাজ হয়ে যাবে আফা ”</p>
+                            <div class="author-info">
+                                <div class="thumb">
+                                    <img src="assets/media/programmer.png" alt="Google Review">
+                                </div>
+                                <div class="content">
+                                    <span class="name" style="color: red; font-size:18px;">Religious</span>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <ul class="shape-group-4 list-unstyled">
+                <li class="shape-1"><img src="assets/media/others/bubble-1.png" alt="Bubble"></li>
             </ul>
         </section>
         <!--=====================================-->
-        <!--=        Features Area Start        =-->
+
+
+
+            <!--=        Counter Up Area Start      =-->
         <!--=====================================-->
-        <section class="section section-padding bg-color-dark splash-features" id="splsh-features">
+        <section class="section section-padding bg-color-dark">
             <div class="container">
-                <div class="section-heading heading-light-left">
-                    <div class="row align-items-center">
-                        <div class="col-lg-6">
-                            <h2 class="title">We have Impressive Features</h2>
-                        </div>
-                        <div class="col-lg-5 col-md-8">
-                            <p>You will love all of the features in our template. 100% guaranteed satisfaction.</p>
-                        </div>
-                    </div>
+                <div class="section-heading heading-light">
+                    <span class="subtitle">Featured Case Study</span>
+                    <h2 class="title">Design startup movement</h2>
+                    <p>In vel varius turpis, non dictum sem. Aenean in efficitur ipsum, in egestas ipsum. Mauris in mi ac tellus.</p>
                 </div>
                 <div class="row">
-                    <div class="col-xl-4 col-md-6" data-sal="slide-up" data-sal-duration="800" data-sal-delay="100">
-                        <div class="services-grid active">
-                            <div class="thumbnail">
-                                <img src="assets/media/icon/icon-13.png" alt="icon">
+                    <div class="col-lg-3 col-6" data-sal="slide-up" data-sal-duration="800" data-sal-delay="100">
+                        <div class="counterup-progress active">
+                            <div class="icon">
+                                <img src="assets/media/icon/icon-7.png" alt="Apple">
                             </div>
-                            <div class="content">
-                                <h5 class="title">Fully <br> Responsive <br>Layout</h5>
-                                <p>All the pages of this template are responsive. We used Bootstrap framework to build the website. It’s the best in class.</p>
+                            <div class="count-number h2">
+                                <span class="number count">1048</span>
+                                <span class="symbol">+</span>
                             </div>
+                            <h6 class="title">Accuracy</h6>
                         </div>
                     </div>
-                    <div class="col-xl-4 col-md-6" data-sal="slide-up" data-sal-duration="800" data-sal-delay="200">
-                        <div class="services-grid">
-                            <div class="thumbnail">
-                                <img src="assets/media/icon/icon-14.png" alt="icon">
+                    <div class="col-lg-3 col-6" data-sal="slide-up" data-sal-duration="800" data-sal-delay="200">
+                        <div class="counterup-progress">
+                            <div class="icon">
+                                <img src="assets/media/icon/icon-8.png" alt="Apple">
                             </div>
-                            <div class="content">
-                                <h5 class="title">30+ <br> Resourceful <br> Pages</h5>
-                                <p>All the pages are created based on real content that you will need to run your business. Change image and text and you’re good to go!</p>
+                            <div class="count-number h2">
+                                <span class="number count">360</span>
+                                <span class="symbol">+</span>
                             </div>
+                            <h6 class="title">Precision</h6>
                         </div>
                     </div>
-                    <div class="col-xl-4 col-md-6" data-sal="slide-up" data-sal-duration="800" data-sal-delay="300">
-                        <div class="services-grid">
-                            <div class="thumbnail">
-                                <img src="assets/media/icon/icon-16.png" alt="icon">
+                    <div class="col-lg-3 col-6" data-sal="slide-up" data-sal-duration="800" data-sal-delay="300">
+                        <div class="counterup-progress">
+                            <div class="icon">
+                                <img src="assets/media/icon/icon-9.png" alt="Apple">
                             </div>
-                            <div class="content">
-                                <h5 class="title">Fully <br> Customizable</h5>
-                                <p>Our template is fully customizable. You can change color combination, fonts, icons, contents, images etc. You can also add custom css.</p>
+                            <div class="count-number h2">
+                                <span class="number count">600</span>
+                                <span class="symbol">+</span>
                             </div>
+                            <h6 class="title">Recall</h6>
                         </div>
                     </div>
-                    <div class="col-xl-4 col-md-6" data-sal="slide-up" data-sal-duration="800" data-sal-delay="100">
-                        <div class="services-grid">
-                            <div class="thumbnail">
-                                <img src="assets/media/icon/icon-18.png" alt="icon">
+                    <div class="col-lg-3 col-6" data-sal="slide-up" data-sal-duration="800" data-sal-delay="400">
+                        <div class="counterup-progress">
+                            <div class="icon">
+                                <img src="assets/media/icon/apple.png" alt="Apple">
                             </div>
-                            <div class="content">
-                                <h5 class="title">Google <br> Fonts</h5>
-                                <p>A vast collection of Google fonts are integrated with the template. You can use any of them that goes with your branding.</p>
+                            <div class="count-number h2">
+                                <span class="number count">64</span>
+                                <span class="symbol">+</span>
                             </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-4 col-md-6" data-sal="slide-up" data-sal-duration="800" data-sal-delay="200">
-                        <div class="services-grid">
-                            <div class="thumbnail">
-                                <img src="assets/media/icon/icon-20.png" alt="icon">
-                            </div>
-                            <div class="content">
-                                <h5 class="title">Lifetime <br> Update</h5>
-                                <p>Purchase our template only once and get lifetime updates. We keep updating our products to stay up to date with latest trends and technology.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-4 col-md-6" data-sal="slide-up" data-sal-duration="800" data-sal-delay="300">
-                        <div class="services-grid">
-                            <div class="thumbnail">
-                                <img src="assets/media/icon/icon-21.png" alt="icon">
-                            </div>
-                            <div class="content">
-                                <h5 class="title">Mobile <br> Optimized</h5>
-                                <p>All the pages of this template are optimized. We used Bootstrap framework to build the website. It’s the best in class.</p>
-                            </div>
+                            <h6 class="title">F1-score</h6>
                         </div>
                     </div>
                 </div>
             </div>
-            <ul class="list-unstyled shape-group-10">
-                <li class="shape shape-1"><img src="assets/media/others/circle-1.png" alt="Circle"></li>
-                <li class="shape shape-2"><img src="assets/media/others/line-3.png" alt="Circle"></li>
-                <li class="shape shape-3"><img src="assets/media/others/bubble-5.png" alt="Circle"></li>
+            <ul class="shape-group-5 list-unstyled">
+                <li class="shape shape-1"><img src="assets/media/others/circle-1.png" alt="line"></li>
+                <li class="shape shape-2"><img src="assets/media/others/line-3.png" alt="line"></li>
+                <li class="shape shape-3"><img src="assets/media/others/bubble-5.png" alt="line"></li>
+                <li class="shape shape-4"><img src="assets/media/others/bubble-6.png" alt="line"></li>
             </ul>
         </section>
         <!--=====================================-->
-        <!--=     Why Choose Area Start         =-->
+
+
+
+         <!--=        About Area Start         =-->
         <!--=====================================-->
-        <section class="section section-padding bg-color-light spalsh-why-choose" id="splash-why-choose">
+        <section class="section section-padding-equal bg-color-light">
             <div class="container">
-                <div class="section-heading heading-left">
-                    <div class="row align-items-center">
-                        <div class="col-xl-6 col-lg-7">
-                            <h2 class="title">Why buy template from us?</h2>
-                        </div>
-                        <div class="col-xl-4 col-lg-5 offset-xl-2">
-                            <p>Every template is built with such efforts that they are ready to meet all of our clients’ expectations.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="row justify-content-center">
-                    <div class="col-xl-4 col-lg-6" data-sal="slide-up" data-sal-duration="800">
-                        <div class="why-buy-box">
-                            <div class="heading">
-                                <div class="icon">
-                                    <img src="assets/media/icon/icon-22.png" alt="Thumb">
-                                </div>
-                                <h5 class="title">A Complate Product <br> for Your Business</h5>
+                <div class="row align-items-center">
+                    <div class="col-lg-6" data-sal="slide-up" data-sal-duration="800">
+                        <div class="about-us">
+                            <div class="section-heading heading-left mb-0">
+                                <span class="subtitle">About Us</span>
+                                <h2 class="title mb--40">We do design, code & develop.</h2>
+                                <p>Nulla et velit gravida, facilisis quam a, molestie ante. Mauris placerat suscipit dui, eget maximus tellus blandit a. Praesent non tellus sed ligula commodo blandit in et mauris. Quisque efficitur ipsum ut dolor molestie pellentesque. </p>
+                                <p>Nulla pharetra hendrerit mi quis dapibus. Quisque luctus, tortor a venenatis fermentum, est lacus feugiat nisl, id pharetra odio enim eget libero. </p>
                             </div>
-                            <p>We build template that are rich in content and have good user interface to deliver premium user experience for your customers.</p>
                         </div>
                     </div>
-                    <div class="col-xl-4 col-lg-6" data-sal="slide-up" data-sal-duration="800" data-sal-delay="200">
-                        <div class="why-buy-box">
-                            <div class="heading">
-                                <div class="icon">
-                                    <img src="assets/media/icon/icon-23.png" alt="Thumb">
+                    <div class="col-xl-5 col-lg-6 offset-xl-1" data-sal="slide-up" data-sal-duration="800" data-sal-delay="100">
+                        <div class="contact-form-box">
+                            <h3 class="title">Get a free Keystroke quote now</h3>
+                            <form method="POST" action="" class="axil-contact-form">
+                                <div class="form-group">
+                                    <label>Name</label>
+                                    <input type="text" class="form-control" name="contact-name" placeholder="John Smith">
                                 </div>
-                                <h5 class="title">SEO &amp; <br> SMM Friendly</h5>
-                            </div>
-                            <p>Our template is SEO and SMM friendly that aligns with your digital marketing strategies to bring more organic traffic to your website.</p>
-                        </div>
-                    </div>
-                    <div class="col-xl-4 col-lg-12" data-sal="slide-up" data-sal-duration="800" data-sal-delay="300">
-                        <div class="why-buy-box">
-                            <div class="heading">
-                                <div class="icon">
-                                    <img src="assets/media/icon/icon-24.png" alt="Thumb">
+                                <div class="form-group">
+                                    <label>Email</label>
+                                    <input type="email" class="form-control" name="contact-email" placeholder="example@mail.com">
                                 </div>
-                                <h5 class="title">Well Organized <br> Codes</h5>
-                            </div>
-                            <p>The coding structure of our items organized so other developers can easily recognize the pattern and make updates as needed.</p>
-                        </div>
-                    </div>
-                    <div class="col-xl-4 col-lg-6" data-sal="slide-up" data-sal-duration="800">
-                        <div class="support-box online-docuentation splash-hover-control">
-                            <a target="_blank" href="https://axilthemes.com/docs/abstrak-html/">
-                                <div class="inner">
-                                    <div class="content">
-                                        <div class="heading">
-                                            <h4 class="title">Online<br> Documentation</h4>
-                                            <div class="icon">
-                                                <img src="assets/media/icon/icon-25.png" alt="Thumb">
-                                            </div>
-                                        </div>
-                                        <p>Well organized and up to date</p>
-                                    </div>
-                                    <div class="btn-area">
-                                        <span class="item-btn"><i class="fal fa-angle-right"></i></span>
-                                    </div>
+                               
+                                <div class="form-group">
+                                    <button type="submit" class="axil-btn btn-fill-primary btn-fluid btn-primary" name="submit-btn">Get Free Quote</button>
                                 </div>
-                                <ul class="shape-group list-unstyled">
-                                    <li class="shape-1"><img src="assets/media/others/bubble-34.png" alt="Shape"></li>
-                                    <li class="shape-2"><img src="assets/media/others/line-8.png" alt="Shape"></li>
-                                </ul>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-xl-4 col-lg-6" data-sal="slide-up" data-sal-duration="800" data-sal-delay="200">
-                        <div class="support-box support-ticket splash-hover-control">
-                            <a target="_blank" href="https://support.axilthemes.com/support/">
-                                <div class="inner">
-                                    <div class="content">
-                                        <div class="heading">
-                                            <h4 class="title">Submit A <br> Support Ticket</h4>
-                                            <div class="icon">
-                                                <img src="assets/media/icon/icon-26.png" alt="Thumb">
-                                            </div>
-                                        </div>
-                                        <p>We response within 1 Business day. weekends excluded.</p>
-                                    </div>
-                                    <div class="btn-area">
-                                        <span class="item-btn"><i class="fal fa-angle-right"></i></span>
-                                    </div>
-                                </div>
-                            </a>
+                                <input type="hidden" class="form-control" name="contact-message" value="Null">
+                            </form>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="line-shape">
-                <img src="assets/media/others/line-6.png" alt="Line">
-            </div>
+            <ul class="shape-group-6 list-unstyled">
+                <li class="shape shape-1"><img src="assets/media/others/bubble-7.png" alt="Bubble"></li>
+                <li class="shape shape-2"><img src="assets/media/others/line-4.png" alt="line"></li>
+                <li class="shape shape-3"><img src="assets/media/others/line-5.png" alt="line"></li>
+            </ul>
         </section>
         <!--=====================================-->
+      
+
+
+
+
+
         <!--=     Call To Action Area Start     =-->
         <!--=====================================-->
-        <section class="section call-to-action-area splash-call-to-action">
+        <section class="section call-to-action-area">
             <div class="container">
                 <div class="call-to-action">
-                    <div class="section-heading heading-light" data-sal="slide-up" data-sal-duration="800">
-                        <h2 class="title">Let’s Start <br> Your Business Today!</h2>
-                        <p>Missing something? Just tell us what you need by <a target="_blank" href="https://support.axilthemes.com/support/">requesting us here.</a> </p>
-                        <a target="_blank" href="https://themeforest.net/checkout/from_item/33996058?license=regular" class="axil-btn btn-fill-white">Buy Now</a>
+                    <div class="section-heading heading-light">
+                        <span class="subtitle">Thank you for visiting</span>
+                        <h2 class="title">Give us a feedback</h2>
+                        <a href="https://forms.gle/HYTH9h7AdNd6gWTQ9" style="font-size:18px;" class="axil-btn btn-large btn-fill-white">Rate our project</a>
+                    </div>
+                    <div class="thumbnail">
+                        <div class="larg-thumb" data-sal="zoom-in" data-sal-duration="600" data-sal-delay="100">
+                            <img src="" alt="">
+                        </div>
+                        <ul class="list-unstyled small-thumb">
+                            <li class="shape shape-1" data-sal="slide-right" data-sal-duration="800" data-sal-delay="400">
+                                <img src="assets/media/others/comment.png" alt="Comments">
+                            </li>
+                           
+                            
+                            <li class="shape shape-4" data-sal="slide-left" data-sal-duration="800" data-sal-delay="300">
+                                <img src="assets/media/others/bell-icon.png" alt="Comments">
+                            </li>
+                            
+                        </ul>
                     </div>
                 </div>
             </div>
@@ -472,35 +520,26 @@
             </ul>
         </section>
         <!--=====================================-->
-        <!--=        Footer Area Start          =-->
+
+
+        <!--=        Footer Area Start       	=-->
         <!--=====================================-->
-        <footer class="footer-area splash-footer">
+        <footer class="footer-area">
             <div class="container">
                 <div class="footer-bottom" data-sal="slide-up" data-sal-duration="500" data-sal-delay="100">
-                    <div class="row align-items-center">
-                        <div class="col-lg-5">
-                            <div class="footer-copyright">
-                                <span class="copyright-text">© 2021. All rights reserved by <a href="https://axilthemes.com/">Axilthemes</a>.</span>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="footer-copyright" style="text-align: center; font-weight: bold;">
+                                <span class="copyright-text">© 2021. All rights reserved by <a href="https://github.com/ahnaf084/cbdnlp">CBDNLP</a>.</span>
                             </div>
                         </div>
-                        <div class="col-lg-2">
-                            <ul class="footer-social list-unstyled">
-                                <li><a href="https://www.facebook.com/axilthemes"><i class="fab fa-facebook-f"></i></a></li>
-                                <li><a href="https://dribbble.com/axilweb/"><i class="fab fa-dribbble"></i></a></li>
-                            </ul>
-                        </div>
-                        <div class="col-lg-5">
-                            <div class="footer-bottom-link">
-                                <ul class="list-unstyled">
-                                    <li><a href="https://themeforest.net/user/axilthemes/portfolio">More Themes</a></li>
-                                    <li><a href="privacy-policy.html">Privacy Policy</a></li>
-                                </ul>
-                            </div>
-                        </div>
+                      
                     </div>
                 </div>
             </div>
         </footer>
+
+
 
 
         <!--=====================================-->
@@ -511,45 +550,26 @@
                 <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
             </div>
             <div class="offcanvas-body">
-                <form action="#" class="side-nav-search-form">
-                    <div class="form-group">
-                        <input type="text" class="search-field" name="search-field" placeholder="Search...">
-                        <button class="side-nav-search-btn"><i class="fas fa-search"></i></button>
-                    </div>
-                </form>
+               
                 <div class="row ">
                     <div class="col-lg-5 col-xl-6">
                         <ul class="main-navigation list-unstyled">
-                            <li><a href="index-1.html">Digital Agency</a></li>
-                            <li><a href="index-3.html">Creative Agency</a></li>
-                            <li><a href="index-4.html">Personal Portfolio</a></li>
-                            <li><a href="index-5.html">Home Startup</a></li>
-                            <li><a href="index-6.html">Corporate Agency</a></li>
+                             <li><a href="project.html" style="font-weight:bold;">Project</a></li>
+                             <li><a href="team.html" style="font-weight:bold;">Team</a></li>
+                            
                         </ul>
                     </div>
                     <div class="col-lg-7 col-xl-6">
                         <div class="contact-info-wrap">
+                            
                             <div class="contact-inner">
-                                <address class="address">
-                                    <span class="title">Contact Information</span>
-                                    <p>Theodore Lowe, Ap #867-859 <br> Sit Rd, Azusa New York</p>
-                                </address>
-                                <address class="address">
-                                    <span class="title">We're Available 24/7. Call Now.</span>
-                                    <a class="tel" href="tel:8884562790"><i class="fas fa-phone"></i>(888)
-                                        456-2790</a>
-                                    <a class="tel" href="tel:12125553333"><i class="fas fa-fax"></i>(121)
-                                        255-53333</a>
-                                </address>
-                            </div>
-                            <div class="contact-inner">
-                                <h5 class="title">Find us here</h5>
+                                <h5 class="title" style="font-size:28px; font-weight: bold;">Find this project on</h5>
                                 <div class="contact-social-share">
-                                    <ul class="social-share list-unstyled">
-                                        <li><a href="https://facebook.com/"><i class="fab fa-facebook-f"></i></a></li>
-                                        <li><a href="https://twitter.com/"><i class="fab fa-twitter"></i></a></li>
-                                        <li><a href="https://www.behance.net/"><i class="fab fa-behance"></i></a></li>
-                                        <li><a href="https://www.linkedin.com/"><i class="fab fa-linkedin-in"></i></a></li>
+                                    <ul class="list-unstyled">
+                                        <li><a href="https://github.com/ahnaf084/cbdnlp">
+                                            <img src="assets/media/github.png">
+                                        </a></li>
+                                       
                                     </ul>
                                 </div>
                             </div>
@@ -558,6 +578,8 @@
                 </div>
             </div>
         </div>
+
+
     </div>
 
     <!-- Jquery Js -->
@@ -581,6 +603,4 @@
     <script src="assets/js/app.js"></script>
 </body>
 
-
-<!-- Mirrored from axilthemes.com/demo/template/abstrak/ by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 20 Oct 2021 19:49:49 GMT -->
 </html>
