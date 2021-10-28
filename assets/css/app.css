@@ -3162,7 +3162,7 @@ Pagination
 }
 
 .banner.banner-style-5 {
-    /*background-image: url("../media/banner/banner-bg-1.png");*/
+    background-image: url("../media/banner/banner-bg-1.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
