@@ -6,7 +6,7 @@ const span1 = document.querySelector('#siam');
 const span2 = document.querySelector('#snigdha');
 
 span1.textContent=catg;
-span2.textContent=value;
+span2.textContent=value+"%";
 };
 
 // create a new user
